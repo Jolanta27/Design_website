@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 160, 192, 0.8),rgba(255, 160, 192, 0.8)), url(sport.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.nav-bar {
+    display: flex;
+    height: 12%;
+}
+.navbar-left {
+    flex-basis: 70%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.838);
+}
+.navbar-right {
+    flex-basis: 30%;
+    background: #fff;
+}
+.navbar-inner{
+    display: flex;
+    align-items: center;
+    padding: 25px 50px 25px 50px;
+}
+.navbar-inner img {
+    width: 80px;
+}
+.navbar-inner ul {
+    margin-left: 20px;
+    z-index:2;
+}
+.navbar-inner ul li {
+    margin: 0 10px;
+    display: inline-block;
+}
+.navbar-inner ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-right {
+    flex-basis: 30%;
+    background: #fff;
+}
+.navbar-right ul {
+    float: right;
+    padding: 35px 50px 10px 50px;
+}
+.navbar-right ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.content {
+    display:flex;
+    height: 88%;
+}
+.content-left {
+    flex-basis: 70%;
+    position: relative;
+}
+.content-right {
+    flex-basis: 30%;
+    position: relative;
+    background:white;
+}
+.upper-text {
+    left: 15%;
+    top: 20%;
+    position: absolute;
+    color: rgb(250, 254, 255);
+    opacity: .5;
+}
+.upper-text h1{
+    font-size:150px;
+    margin-left: 80px;
+    line-height: 90px;
+    font-style: italic;
+}
+.upper-text h2 {
+    font-size: 90px;
+    margin-right: 80px;
+}
+.bottom-text {
+    left: 55%;
+    bottom: 12%;
+    position: absolute;
+    color: rgb(250, 254, 255);
+    opacity: .5;
+}
+.bottom-text h1 {
+    font-size: 100px;
+    margin-left: 100px;
+    line-height: 50px;
+}
+.bottom-text h2 {
+    font-size: 60px;
+}
+.bottom-text h3 {
+    font-size: 40px;
+    margin-left: 225px;
+    line-height: 10px;
+}
+.content-left img {
+    width: 700px;
+    top: -10%;
+    right: -20%;
+    position: absolute;
+    z-index: 1;
+}
+.content-right img {
+    width: 300px;
+    margin-top: 400px;
+    margin-left: 80px;
+}
+.product-details {
+    bottom: 60%;
+    left: 60%;
+    position:absolute;
+    margin-bottom: 20px;
+}
