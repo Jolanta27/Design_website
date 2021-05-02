@@ -4,7 +4,7 @@
 }
 .hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 160, 192, 0.8),rgba(255, 160, 192, 0.8)), url(sport.jpg);
+    background-image: linear-gradient(rgba(255, 160, 192, 0.8),rgba(255, 160, 192, 0.8)), url(images/sport.jpg);
     background-position: center;
     background-size: cover;
     font-family: sans-serif;
